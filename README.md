@@ -34,3 +34,68 @@ ipaddress
 netstat "static"
 ifstat "continuous
 sudo ifstat -i eth0
+
+
+Day 2
+
+print working directory
+change directory
+~ - ..
+~ honme
+- back to the point before
+.. back to the previous directory
+
+environment variables
+printenv
+$HOME
+$PWD
+$OLDPWD
+$USER
+
+list files
+ls
+
+-l as a list
+-lh as a human readable list
+-a list with hidden files
+
+customize prompt
+export PS1="\$"
+
+creating file and directories
+
+mkdir <name>
+touch <name>
+mv <name> <name>
+cp <name>
+rm <name>
+rmdir <name> (only empty directory)
+
+rtfm 
+man cp
+apropos <name>
+tldr
+
+Day 3
+3 types of users
+root
+sudoers
+normal
+
+changing passwords
+visudo
+passwd
+
+change hostname
+hostnamectl set-hostname
+preserve_hostname: true
+
+change timezone
+sudo timedatectl list-timezones
+sudo timedatectl set-timezone <timezone>
+
+Day 4
+
+installing software
+apt search "midnight commander"
+sudo apt install mc
